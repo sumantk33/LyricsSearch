@@ -1,1 +1,1 @@
-Contains the JavaScript file.
+Contains the JavaScript file
