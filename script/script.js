@@ -65,7 +65,7 @@ async function getLyrics(artist, songTitle) {
     <span style="font-size:18px">${lyrics}</span>`;
   }
   catch (e) {
-    lyr.innerHTML = '<br><br><br><h1 class="display-2">Sorry!!<h1><br> <h3 style="font-size: 30px">Could not find the lyrics<h3>'
+    lyr.innerHTML = '<br><br><br><h1 class="display-2">Sorry!!<h1><br> <h3 style="font-size: 30px">Could not find the lyrics<h3><br><br>'
   }
   document.getElementById('head').style.opacity = "0.0";
   document.getElementById('more').style.opacity = "0.0";
